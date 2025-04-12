@@ -1,0 +1,79 @@
+
+.we-video-info {
+  float: left;
+  padding: 15px 0 10px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.we-video-info > ul {
+  float: left;
+  width: 100%;
+  line-height: 27px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.social-media {
+  vertical-align: sub;
+}
+
+.we-video-info > ul li {
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 40px;
+}
+
+.we-video-info > ul li span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 3px;
+  position: relative;
+}
+
+.we-video-info > ul li.upload-date {
+  float: right;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.upload-date > i {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+.we-video-info > ul li span.dislike {
+  color: red;
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+}
+
+.we-video-info > ul li span ins {
+  font-size: 11px;
+  left: 20px;
+  position: absolute;
+  text-decoration: none;
+  top: -10px;
+}
+
+.we-video-info > ul li span.like {
+  color: green;
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+}
+
+.we-video-info
+  > ul
+  li
+  span.like:hover
+  .we-video-info
+  > ul
+  li
+  span.dislike:hover {
+  transform: scale(1.1);
+}

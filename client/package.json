@@ -1,0 +1,66 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "bootstrap": "^4.6.0",
+    "geo-nearby": "^2.0.1",
+    "history": "^5.0.0",
+    "jquery": "^3.6.0",
+    "mdbreact": "^5.0.2",
+    "prop-types": "^15.7.2",
+    "razorpay": "^2.0.6",
+    "react": "^17.0.1",
+    "react-chat-elements": "^10.14.0",
+    "react-date": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-flash-message": "^1.0.5",
+    "react-image-video-gallery": "^0.8.18",
+    "react-image-video-lightbox": "^2.0.4",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-select": "^4.3.0",
+    "react-show-more-text": "^1.4.6",
+    "react-toastify": "^7.0.4",
+    "react-transition-group": "^4.4.1",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "simple-react-lightbox": "^3.6.5",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "react-alice-carousel": "^2.5.1"
+  }
+}
